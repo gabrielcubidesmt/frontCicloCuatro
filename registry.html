@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Registry</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+	<script type="text/javascript" src="js/scripts_registry.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Registro usuarios</h1>
+		<form id="registration_form">
+			<div>
+				<input type="text" id="name" name="" required="">
+				<span class="error_form" id="name_error_message"></span>
+				<label>
+					Nombre
+				</label>	
+			</div>
+			<div>
+				<input type="email" id="email" name="" required="">
+				<span class="error_form" id="email_error_message"></span>
+				<label>Correo Electronico</label>	
+			</div>
+			<div>
+				<input type="password" id="password" name="" required="">
+				<span class="error_form" id="password_error_message"></span>
+				<label>Contraseña</label>	
+			</div>
+			<div>
+				<input type="password" id="retype_password" name="" required="">
+				<span class="error_form" id="retype_password_error_message"></span>
+				<label>Confirme Contraseña</label>	
+			</div>
+			<input type="submit" value="Register">
+		</form>
+    <br><hr>
+    <div>
+      <a href="login.html">Ya tienes cuenta? Ingresa</a>
+    </div>
+	</div>
+
+</body>
+</html>

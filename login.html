@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ingreso</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+	<script type="text/javascript" src="js/scripts_login.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Ingreso usuarios</h1>
+		<form id="login_form">
+			<div>
+				<input type="email" id="email" name="" required="">
+				<span class="error_form" id="email_error_message"></span>
+				<label>Correo Electronico</label>	
+			</div>
+			<div>
+				<input type="password" id="password" name="" required="">
+				<span class="error_form" id="password_error_message"></span>
+				<label>Contraseña</label>	
+			</div>
+			<!-- <input type="submit" value="Register"> -->
+      <button onclick="getUserByEmailAndPassword()" type="submit" class="btn btn-info">Registrarse</button>
+		</form>
+    <br><hr>
+    <div>
+      <a href="registry.html">Crea una cuenta!</a>
+    </div>
+
+	</div>
+
+
+
+</body>
+</html>
